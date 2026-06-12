@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 3c13d5c8-b1c8-4319-a5dd-02dc62f14ea9
-  title: Título del Playbook
+  title: Template test
   description: Guía práctica para Customer Success Specialists
   keywords: []
   authors: [Customer Success México]
@@ -10,20 +10,13 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
     
   toc:
-    - file: intro.md
     - title: Introducción
       children: 
-      - file: cap1/objetivo.md
-      - file: cap1/recursos.md
-      - file: cap1/kpis.md
-     
-    - title: Ejecución
-      children: 
-      - file: cap2/pasos.md
-      - file: cap2/diagrama.md
+      - file: test/doctest.md
+      
 
    
-   
+
   
 
   options:
